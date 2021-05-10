@@ -7,8 +7,7 @@ const categoryController = require("../controllers/category");
 
 
 router.post("/add-category", categoryController.add);
-router.get("/get-categories", categoryController.get)
-// router.post("/book", bookTicket.book);
-// router.post("/cancel", cancelTicket.cancel);
+router.get("/rate-review", categoryController.get)
+
 
 module.exports = router;
