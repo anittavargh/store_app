@@ -53,7 +53,7 @@ module.exports.add = async (req, res, next) => {
   }
 };
 
-// Get Categories of the store
+// Get Products in the store
 
 module.exports.get = async (req, res, next) => {
   try {
