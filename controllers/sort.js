@@ -76,7 +76,7 @@ module.exports.sortByPopular = async (req, res, next) => {
 
     const products = await Product.find({
       category_id: id,
-    }).sort({rating: "desc"});
+    }).sort({ rating: "desc" });
 
     res.send({
       Status: 200,
