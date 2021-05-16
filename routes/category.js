@@ -7,7 +7,7 @@ const categoryController = require("../controllers/category");
 
 
 router.post("/add-category", categoryController.add);
-router.get("/rate-review", categoryController.get)
+router.get("/get-category", categoryController.get)
 
 
 module.exports = router;
